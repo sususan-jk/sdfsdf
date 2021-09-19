@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>flexbx</title>
+    <style>
+        .container{
+            width: 600px;
+            height: 600px;
+            justify-content: flex-end;/*justify-content for moving children items as main axis*/
+            background-color:cyan;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            align-items: center;/*align-items for moving children items as cross axis*/
+        }
+        .box{
+            width: 100px;
+            height: 90px;
+        }
+        .box1{
+            background-color:yellow;
+        }
+        .box2{
+            background-color:green;
+        }
+        .box3{
+            background-color:darkblue;
+        }
+        .box4{
+            background-color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+</body>
+</html>
